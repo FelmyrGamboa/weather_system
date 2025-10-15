@@ -1,4 +1,6 @@
 # ,name,region,country,lat,lon,tz_id,localtime_epoch,localtime,sunrise,sunset,moonrise,moonset,moon_phase,moon_illumination,is_moon_up,is_sun_up
+from datetime import datetime
+
 class WeatherSystem:
     def __init__(self, source_file):
         # self.source_file = open("./countryAstronomy.csv","r")
@@ -39,18 +41,6 @@ class WeatherSystem:
 
             total_minutes = (int(hours) * 24) + int(minutes)
             return [f'{hours}:{minutes}', total_minutes]
-    
-    # utilities
-    def rev_time_conversion(self, time):
-            separate_time = time.split(':')
-            hours = int(separate_time[0])
-            minutes = int(separate_time[1])
-            meridian_id = 'AM'
-
-            if hours > 12:
-                hours = int(hours) - 12
-                meridian_id = "PM"
-            return f'{hours}:{minutes} {meridian_id}'
 
     # ultities
     def format_date(self, date) -> str:
@@ -67,22 +57,49 @@ class WeatherSystem:
     
     # utilities
     def time_duration(self, time1, time2):
-        morning_time = time1.split(':')
-        night_time = time2.split(':')
+        set_time = time1.split(':')
+        rise_time = time2.split(':')
 
-        day_mins = (int(morning_time[0])*24) + int(morning_time[1])
-        night_mins = (int(night_time[0])*24) + int(night_time[1])
+        set_mins = (int( set_time[0])*60) + int( set_time[1])
+        rise_mins = (int(rise_time[0])*60) + int(rise_time[1])
 
-        duration = night_mins - day_mins
+        if rise_mins > set_mins:
+            duration = rise_mins -  set_mins
+        elif set_mins > rise_mins:
+            duration = set_mins - rise_mins
+         
+        hrs_diff = duration // 60
+        mins_diff = duration - (hrs_diff*60)
+        # hrs_diff = duration  // 24
+        # if len(str(hrs_diff).split('-')) == 2:
+        #     hrs_diff += 24
+        #     duration = int(str(duration).split('-')[1])
+        # mins_diff = (int(rise_time[1]) - int(set_time[1])) + 60
+        # if mins_diff > 60: 
+        #     mins_diff -= 60
+        # elif duration  % 24 == 0:
+        #     mins_diff = 0
+        return [f'{hrs_diff} hrs & {mins_diff} mins', duration]
+    
+        # morning_time = time1.split(':')
+        # night_time = time2.split(':')
 
-        hrs_diff = duration  // 24
-        mins_diff = (int(night_time[1]) - int(morning_time[1])) + 60
-        if mins_diff > 60: 
-            mins_diff -= 60
-        elif duration  % 24 == 0:
-            mins_diff = 0
+        # day_mins = (int(morning_time[0])*24) + int(morning_time[1])
+        # night_mins = (int(night_time[0])*24) + int(night_time[1])
 
-        return [f'{hrs_diff} hrs & {mins_diff} mins', duration ]
+        # duration = night_mins - day_mins
+        
+        # hrs_diff = duration  // 24
+        # if len(str(hrs_diff).split('-')) == 2:
+        #     hrs_diff += 24
+        #     duration = int(str(duration).split('-')[1])
+        # mins_diff = (int(night_time[1]) - int(morning_time[1])) + 60
+        # if mins_diff > 60: 
+        #     mins_diff -= 60
+        # elif duration  % 24 == 0:
+        #     mins_diff = 0
+
+        # return [f'{hrs_diff} hrs & {mins_diff} mins', duration]
     
     def ave_time(self, tz_place, state):
         duration_list = []
@@ -92,36 +109,50 @@ class WeatherSystem:
                 data_1 = id_1.split(',')
                 if tz_place.lower() == data_1[6].lower().split('/')[0]:
                     duration_list.append(self.time_duration(self.time_conversion(data_1[9])[0], self.time_conversion(data_1[10])[0])[1])
-            for rise_time in duration_list:
-                ave_placeholder += int(rise_time)
+            for time in duration_list:
+                ave_placeholder += int(time)
         elif state == "night":
             for id_1 in self.data_list:
                 data_1 = id_1.split(',')
                 if tz_place.lower() == data_1[6].lower().split('/')[0]:
-                    duration_list.append(self.time_duration(self.time_conversion(data_1[12])[0], self.time_conversion(data_1[11])[0])[1])
-            for rise_time in duration_list:
-                ave_placeholder += int(rise_time)
+                    duration_list.append(self.time_duration(self.time_conversion(data_1[11])[0], self.time_conversion(data_1[12])[0])[1])
+            for time in duration_list:
+                ave_placeholder += int(time)
 
         
         ave_value = round(ave_placeholder / len(duration_list))
-        time_hrs = ave_value // 24
-        time_mins = ave_value % 60
-        return ave_value
+        # mins_diff = (int(night_time[1]) - int(morning_time[1])) + 60
+        # if mins_diff > 60: 
+        #     mins_diff -= 60
+        # elif duration  % 24 == 0:
+        #     mins_diff = 0
+        time_hrs = ave_value // 60
+        time_mins = (ave_value % 60) + 60
+        if time_mins >= 60:
+            time_mins -= 60
+        elif ave_value % 60 == 0:
+            time_mins = 0
+        return [ave_value, f'{time_hrs} hours & {time_mins} minutes']
 
     def time_comparison(self, converted_time1, converted_time2):
-        time_1 = converted_time1.split('&')
-        time_2 = converted_time2.split('&')
-
-        time_1_hrs = int(time_1[0].removesuffix(' hrs '))
-        time_1_mins = int(time_1[1].removesuffix(' mins'))
-
-        time_2_hrs = int(time_2[0].removesuffix(' hrs '))
-        time_2_mins = int(time_2[1].removesuffix(' mins'))
-
-        if ((time_1_hrs) * 24 + time_1_mins) > ((time_2_hrs) * 24 + time_2_mins):
+        if converted_time1 > converted_time2:
             return 'Day is longer than Night'
         else:
             return 'Night is longer than Day'
+
+        # time_1 = converted_time1.split('&')
+        # time_2 = converted_time2.split('&')
+
+        # time_1_hrs = int(time_1[0].removesuffix(' hrs '))
+        # time_1_mins = int(time_1[1].removesuffix(' mins'))
+
+        # time_2_hrs = int(time_2[0].removesuffix(' hrs '))
+        # time_2_mins = int(time_2[1].removesuffix(' mins'))
+
+        # if ((time_1_hrs) * 24 + time_1_mins) > ((time_2_hrs) * 24 + time_2_mins):
+        #     return 'Day is longer than Night'
+        # else:
+        #     return 'Night is longer than Day'
 
     def analyze_data(self, info) -> list:
         while True:
@@ -133,11 +164,14 @@ class WeatherSystem:
 Country: {sort_data[3]}                     Latitude: {sort_data[4]}
 Region: {sort_data[2]}                      Longitude: {sort_data[5]}
 Place: {sort_data[1]}                       Timezone: {sort_data[6]}
-Daylight Duration: {self.time_duration(self.time_conversion(sort_data[9])[0], self.time_conversion(sort_data[10])[0])[0]}
-{self.time_duration(self.time_conversion(sort_data[9])[0], self.time_conversion(sort_data[10])[0])[1]//5 * '█'}
-Night Duration: {self.time_duration(self.time_conversion(sort_data[12])[0], self.time_conversion(sort_data[11])[0])[0]} 
-{self.time_duration(self.time_conversion(sort_data[12])[0], self.time_conversion(sort_data[11])[0])[1]//5 * '█'}
-->> {self.time_comparison(self.time_duration(self.time_conversion(sort_data[9])[0], self.time_conversion(sort_data[10])[0])[0], self.time_duration(self.time_conversion(sort_data[12])[0], self.time_conversion(sort_data[11])[0])[0])}
+Sunrise: {sort_data[9]}                     Sunset: {sort_data[10]}
+Daylight Duration: 
+{self.time_duration(self.time_conversion(sort_data[9])[0], self.time_conversion(sort_data[10])[0])[1]//15 * '█'} {self.time_duration(self.time_conversion(sort_data[9])[0], self.time_conversion(sort_data[10])[0])[0]}
+
+Moonrise: {sort_data[11]}                   Moonset: {sort_data[12]}
+Night Duration: 
+{self.time_duration(self.time_conversion(sort_data[11])[0], self.time_conversion(sort_data[12])[0])[1]//15* '█'} {self.time_duration(self.time_conversion(sort_data[11])[0], self.time_conversion(sort_data[12])[0])[0]}
+->> {self.time_comparison(self.time_duration(self.time_conversion(sort_data[9])[0], self.time_conversion(sort_data[10])[0])[1], self.time_duration(self.time_conversion(sort_data[11])[0], self.time_conversion(sort_data[12])[0])[1])}
 -> Night Illumination: {int(sort_data[14])}%
 -> Moon Phase: {sort_data[13]}
 ==================================================================
@@ -193,22 +227,6 @@ Night Duration: {self.time_duration(self.time_conversion(sort_data[12])[0], self
         else:
             print("\n>>>> Country Not Found")
 
-    # def search_by_timezone(self, timezone):
-    #     while True: 
-    #         available_timezone = []
-    #         timezone_places = []
-    #         for id in self.data_list:
-    #             data = id.split(',')
-    #             if timezone.lower() == data[6].lower().split('/')[0]:
-    #                 if data[6].split('/')[1] not in available_timezone:
-    #                     available_timezone.append(data[6].split('/')[1])
-    #                 else: 
-    #                     pass
-    #             else:
-    #                 pass
-    #         print(available_timezone)
-    #         break
-
     def search_by_timezone(self):
         while True: 
             available_timezone = []
@@ -258,22 +276,6 @@ Night Duration: {self.time_duration(self.time_conversion(sort_data[12])[0], self
             else:
                 print('\n>>>> Invalid Input')
 
-        # for id in self.data_list:
-        #     data = id.split(',')
-        #     if timezone.lower() == data[6].lower().split('/')[0]:
-        #         print(f'- {data[6].split('/')[1]}')
-
-        # print(self.data_list)
-
-        # countries = []
-        # for id in self.data_list:
-        #     data = id.split(',')
-        #     if data not in countries:
-        #         countries.append(data[1])
-        
-        # for i in countries[1:len(countries)]:
-        #     print(i, end=", ")
-
     def daytime_analytics(self):
         while True: 
             available_timezone = []
@@ -287,15 +289,6 @@ Night Duration: {self.time_duration(self.time_conversion(sort_data[12])[0], self
             
             for tz in available_timezone:
                 if tz.lower() == "asia":
-                    # for id_1 in self.data_list:
-                    #     data_1 = id_1.split(',')
-                    #     if tz.lower() == data_1[6].lower().split('/')[0]:
-                    #         asia_list.append(self.time_duration(self.time_conversion(data_1[12])[0], self.time_conversion(data_1[11])[0])[1])
-                    # for rise_time in asia_list:
-                    #     ave_placeholder += int(rise_time)
-                    # asia_ave = round(ave_placeholder / len(asia_list))
-                    # time_hrs = asia_ave // 24
-                    # time_mins = asia_ave % 60
                     ave_list.append({"asia" : self.ave_time(tz.lower(), "day")})
 
                 elif tz.lower() == "europe":
@@ -321,23 +314,24 @@ Night Duration: {self.time_duration(self.time_conversion(sort_data[12])[0], self
 
             print(f'''
 ==================================================================
-Day Time Average Duration Per Timezone
+Mean Daytime Duration Across Timezone Major Places
+                  
 - Asia: 
-{int(ave_list[0]['asia'])//5 * '█'}
+{int(ave_list[0]['asia'][0])//15 * '█'} {ave_list[0]['asia'][1]} 
 - Europe: 
-{int(ave_list[1]['europe'])//5 * '█'}
+{int(ave_list[1]['europe'][0])//15 * '█'} {ave_list[1]['europe'][1]}
 - Africa: 
-{int(ave_list[2]['africa'])//5 * '█'}
+{int(ave_list[2]['africa'][0])//15 * '█'} {ave_list[2]['africa'][1]}
 - Pacific: 
-{int(ave_list[3]['pacific'])//5 * '█'}
+{int(ave_list[3]['pacific'][0])//15 * '█'} {ave_list[3]['pacific'][1]}
 - America: 
-{int(ave_list[4]['america'])//5 * '█'}
+{int(ave_list[4]['america'][0])//15 * '█'} {ave_list[4]['america'][1]}
 - Australia: 
-{int(ave_list[5]['australia'])//5 * '█'}
+{int(ave_list[5]['australia'][0])//15 * '█'} {ave_list[5]['australia'][1]}
 - Atlantic: 
-{int(ave_list[6]['atlantic'])//5 * '█'}
+{int(ave_list[6]['atlantic'][0])//15 * '█'} {ave_list[6]['atlantic'][1]}
 - Indian: 
-{int(ave_list[7]['indian'])//5 * '█'}
+{int(ave_list[7]['indian'][0])//15 * '█'} {ave_list[7]['indian'][1]}
 ==================================================================
 ''')
             query = input("Go Back (Y): ").strip()
@@ -359,15 +353,6 @@ Day Time Average Duration Per Timezone
             
             for tz in available_timezone:
                 if tz.lower() == "asia":
-                    # for id_1 in self.data_list:
-                    #     data_1 = id_1.split(',')
-                    #     if tz.lower() == data_1[6].lower().split('/')[0]:
-                    #         asia_list.append(self.time_duration(self.time_conversion(data_1[12])[0], self.time_conversion(data_1[11])[0])[1])
-                    # for rise_time in asia_list:
-                    #     ave_placeholder += int(rise_time)
-                    # asia_ave = round(ave_placeholder / len(asia_list))
-                    # time_hrs = asia_ave // 24
-                    # time_mins = asia_ave % 60
                     ave_list.append({"asia" : self.ave_time(tz.lower(), "night")})
 
                 elif tz.lower() == "europe":
@@ -393,23 +378,24 @@ Day Time Average Duration Per Timezone
 
             print(f'''
 ==================================================================
-Night Time Average Duration Per Timezone
+Mean Nighttime Duration Across Timezone Major Places
+                  
 - Asia: 
-{int(ave_list[0]['asia'])//5 * '█'}
+{int(ave_list[0]['asia'][0])//15 * '█'} {ave_list[0]['asia'][1]} 
 - Europe: 
-{int(ave_list[1]['europe'])//5 * '█'}
+{int(ave_list[1]['europe'][0])//15 * '█'} {ave_list[1]['europe'][1]} 
 - Africa: 
-{int(ave_list[2]['africa'])//5 * '█'}
+{int(ave_list[2]['africa'][0])//15 * '█'} {ave_list[2]['africa'][1]} 
 - Pacific: 
-{int(ave_list[3]['pacific'])//5 * '█'}
+{int(ave_list[3]['pacific'][0])//15 * '█'} {ave_list[3]['pacific'][1]} 
 - America: 
-{int(ave_list[4]['america'])//5 * '█'}
+{int(ave_list[4]['america'][0])//15 * '█'} {ave_list[4]['america'][1]}
 - Australia: 
-{int(ave_list[5]['australia'])//5 * '█'}
+{int(ave_list[5]['australia'][0])//15 * '█'} {ave_list[5]['australia'][1]} 
 - Atlantic: 
-{int(ave_list[6]['atlantic'])//5 * '█'}
+{int(ave_list[6]['atlantic'][0])//15 * '█'} {ave_list[6]['atlantic'][1]} 
 - Indian: 
-{int(ave_list[7]['indian'])//5 * '█'}
+{int(ave_list[7]['indian'][0])//15 * '█'} {ave_list[7]['indian'][1]} 
 ==================================================================
 ''')
             query = input("Go Back (Y): ").strip()
@@ -417,74 +403,6 @@ Night Time Average Duration Per Timezone
                 break 
             else: 
                 print(">>>> Invalid Output\n")
-
-                            
-
-#     def timezone_id(self):
-#         available_timezone = []
-#         user_timezone = ""
-#         while True:
-#             for id in self.data_list:
-#                 data = id.split(',')
-#                 country = data[6].split('/')
-#                 available_timezone.append(country)
-#                 if country[0] not in self.timezones:
-#                     self.timezones.append(country[0])
-#                 else:
-#                     pass
-#             self.timezones = self.timezones[1:len(self.timezones)]
-#             available_timezone = available_timezone[1:len(available_timezone)]
-#             for id, tz in enumerate(self.timezones):
-#                 print(f'{id+1}.) {tz}')
-            
-#             print("9.) Back")
-#             user_query = str(input("Select a Timezone Region: "))
-#             match user_query:
-#                 case "1":
-#                     asian_times = []
-#                     user_timezone = "Asia"
-#                     for tz_2 in available_timezone:
-#                         if tz_2[0] == user_timezone:
-#                             asian_times.append(tz_2[1])
-#                         else:
-#                             pass
-                    
-#                     for id, time in enumerate(asian_times):
-#                         print(f'- {time}')
-                    
-#                     while True:
-#                         print(f"- Back") 
-#                         query = str(input("Enter a Timezone Place eg. `Manila`: "))
-#                         for place in asian_times:
-#                             if query.lower() == place.lower():
-#                                 pass
-#                             elif query.lower() == "back":
-#                                 break
-#                             else: 
-#                                 pass
-
-#                 case "2":
-#                     pass
-#                 case "3":
-#                     pass
-#                 case "4":
-#                     pass
-#                 case "5":
-#                     pass
-#                 case "6":
-#                     pass
-#                 case "7":
-#                     pass
-#                 case "8":
-#                     pass
-#                 case "9":
-#                     break
-#                 case _:
-#                     print("Invalid Choice")
-
-#         print(f'''
-# {user_timezone} Timezones available: 
-# ''')
 
 def main():
     weather_astronomy = WeatherSystem("./countryAstronomy.csv")
