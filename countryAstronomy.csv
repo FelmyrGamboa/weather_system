@@ -1,0 +1,239 @@
+,name,region,country,lat,lon,tz_id,localtime_epoch,localtime,sunrise,sunset,moonrise,moonset,moon_phase,moon_illumination,is_moon_up,is_sun_up
+0,Kabul,Kabol,Afghanistan,34.52,69.18,Asia/Kabul,1675950896,09/02/2023 18:24,6:45 am,5:31 pm,8:52 pm,8:44 am,Waning Gibbous,91,1,0
+1,Lappoby-Aland,Aland,Finland,60.32,20.98,Europe/Mariehamn,1675950897,09/02/2023 15:54,8:32 am,5:09 pm,9:42 pm,9:43 am,Waning Gibbous,91,1,0
+2,Tirana,Tirane,Albania,41.33,19.82,Europe/Tirane,1675950898,09/02/2023 14:54,6:44 am,5:07 pm,8:47 pm,8:37 am,Waning Gibbous,91,1,0
+3,Algiers,Alger,Algeria,36.76,3.05,Africa/Algiers,1675950738,09/02/2023 14:52,7:43 am,6:21 pm,9:57 pm,9:44 am,Waning Gibbous,91,1,0
+4,Afao,American Samoa,United States of America,-14.34,-170.8,Pacific/Pago_Pago,1675950739,09/02/2023 2:52,6:18 am,6:56 pm,9:49 pm,9:30 am,Waning Gibbous,91,0,1
+5,Andorra La Vella,Andorra la Vella,Andorra,42.5,1.52,Europe/Andorra,1675950740,09/02/2023 14:52,7:59 am,6:17 pm,10:03 pm,9:52 am,Waning Gibbous,91,1,0
+6,Luanda,Cuanza Norte,Angola,-8.84,13.23,Africa/Luanda,1675950740,09/02/2023 14:52,6:08 am,6:34 pm,9:15 pm,8:51 am,Waning Gibbous,91,1,0
+7,The Valley,,Anguilla,18.22,-63.05,America/Anguilla,1675950741,09/02/2023 9:52,6:42 am,6:10 pm,9:30 pm,9:09 am,Waning Gibbous,91,0,0
+8,Saint John,Saint John,Antigua and Barbuda,17.12,-61.85,America/Antigua,1675950900,09/02/2023 9:55,6:36 am,6:07 pm,9:25 pm,9:04 am,Waning Gibbous,91,0,0
+9,Buenos Aires,Distrito Federal,Argentina,-34.59,-58.67,America/Argentina/Buenos_Aires,1675950901,09/02/2023 10:55,6:23 am,7:54 pm,10:07 pm,9:44 am,Waning Gibbous,91,0,0
+10,Yerevan,Yerevan,Armenia,40.18,44.51,Asia/Yerevan,1675950902,09/02/2023 17:55,8:03 am,6:30 pm,10:04 pm,9:56 am,Waning Gibbous,91,1,0
+11,Oranjestad,,Aruba,12.52,-70.03,America/Aruba,1675950902,09/02/2023 9:55,7:04 am,6:45 pm,9:58 pm,9:37 am,Waning Gibbous,91,0,0
+12,Canberra,Australian Capital Territory,Australia,-35.28,149.22,Australia/Sydney,1675950903,10/02/2023 0:55,6:29 am,8:04 pm,10:02 pm,9:19 am,Waning Gibbous,91,0,1
+13,Vienna,Wien,Austria,48.2,16.37,Europe/Vienna,1675950903,09/02/2023 14:55,7:12 am,5:06 pm,9:01 pm,8:54 am,Waning Gibbous,91,1,0
+14,Baku,Baki,Azerbaijan,40.4,49.88,Asia/Baku,1675950904,09/02/2023 17:55,7:42 am,6:08 pm,9:42 pm,9:35 am,Waning Gibbous,91,1,0
+15,Nassau,New Providence,Bahamas,25.08,-77.35,America/Nassau,1675950905,09/02/2023 8:55,6:48 am,6:00 pm,9:30 pm,9:09 am,Waning Gibbous,91,0,0
+16,Manama,Al Manamah,Bahrain,26.24,50.58,Asia/Bahrain,1675950905,09/02/2023 16:55,6:18 am,5:26 pm,8:39 pm,8:26 am,Waning Gibbous,91,1,0
+17,Dhaka,,Bangladesh,23.72,90.41,Asia/Dhaka,1675950906,09/02/2023 19:55,6:35 am,5:50 pm,8:55 pm,8:43 am,Waning Gibbous,91,1,0
+18,Bridgetown,Saint Michael,Barbados,13.1,-59.62,America/Barbados,1675950907,09/02/2023 9:55,6:23 am,6:02 pm,9:16 pm,8:54 am,Waning Gibbous,91,0,0
+19,Minsk,Minsk,Belarus,53.9,27.57,Europe/Minsk,1675950908,09/02/2023 16:55,8:42 am,6:06 pm,10:14 pm,10:11 am,Waning Gibbous,91,1,0
+20,Brussels,,Belgium,50.83,4.33,Europe/Brussels,1675950908,09/02/2023 14:55,8:06 am,5:48 pm,9:52 pm,9:44 am,Waning Gibbous,91,1,0
+21,Belmopan,Cayo,Belize,17.25,-88.77,America/Belize,1675950909,09/02/2023 7:55,6:24 am,5:55 pm,9:16 pm,8:54 am,Waning Gibbous,91,0,0
+22,Porto-Novo,Oueme,Benin,6.48,2.62,Africa/Porto-Novo,1675950909,09/02/2023 14:55,7:07 am,7:00 pm,9:58 pm,9:38 am,Waning Gibbous,91,1,0
+23,Hamilton,Hamilton,Bermuda,32.29,-64.78,Atlantic/Bermuda,1675950910,09/02/2023 9:55,7:07 am,6:00 pm,9:39 pm,9:19 am,Waning Gibbous,91,0,0
+24,Thimphu,Thimphu,Bhutan,27.48,89.6,Asia/Thimphu,1675950910,09/02/2023 19:55,6:43 am,5:49 pm,8:58 pm,8:48 am,Waning Gibbous,91,1,0
+25,La Paz,La Paz,Bolivia,-16.5,-68.15,America/La_Paz,1675950911,09/02/2023 9:55,6:25 am,7:08 pm,9:48 pm,9:26 am,Waning Gibbous,91,0,0
+26,Bonaire,Santander,Colombia,7,-73.6,America/Bogota,1675950911,09/02/2023 8:55,6:12 am,6:05 pm,9:13 pm,8:51 am,Waning Gibbous,91,0,0
+27,Sarajevo,,Bosnia and Herzegovina,43.85,18.38,Europe/Sarajevo,1675950912,09/02/2023 14:55,6:54 am,5:08 pm,8:53 pm,8:44 am,Waning Gibbous,91,1,0
+28,Gaborone,South-East,Botswana,-24.65,25.91,Africa/Gaborone,1675950913,09/02/2023 15:55,5:59 am,7:02 pm,9:23 pm,8:55 am,Waning Gibbous,91,1,0
+29,Bouvet,Basse-Normandie,France,48.7,0.65,Europe/Paris,1675950913,09/02/2023 14:55,8:16 am,6:08 pm,10:07 pm,9:57 am,Waning Gibbous,91,1,0
+30,Brasilia,Distrito Federal,Brazil,-15.78,-47.92,America/Sao_Paulo,1675950914,09/02/2023 10:55,6:05 am,6:46 pm,9:25 pm,9:02 am,Waning Gibbous,91,1,0
+31,Bandar Seri Begawan,,Brunei Darussalam,4.88,114.93,Asia/Brunei,1675950914,09/02/2023 21:55,6:36 am,6:33 pm,9:16 pm,8:56 am,Waning Gibbous,91,1,1
+32,Sofia,Grad Sofiya,Bulgaria,42.68,23.32,Europe/Sofia,1675950915,09/02/2023 15:55,7:33 am,5:50 pm,9:33 pm,9:23 am,Waning Gibbous,91,1,0
+33,Ouagadougou,Kadiogo,Burkina Faso,12.37,-1.52,Africa/Ouagadougou,1675950916,09/02/2023 13:55,6:30 am,6:11 pm,9:16 pm,8:56 am,Waning Gibbous,91,1,0
+34,Bujumbura,Bujumbura,Burundi,-3.38,29.36,Africa/Bujumbura,1675950916,09/02/2023 15:55,6:10 am,6:23 pm,9:08 pm,8:46 am,Waning Gibbous,91,1,0
+35,Phnum Penh,Phnum Penh,Cambodia,11.55,104.92,Asia/Phnom_Penh,1675950917,09/02/2023 20:55,6:23 am,6:06 pm,8:56 pm,8:40 am,Waning Gibbous,91,1,1
+36,Yaounde,Centre,Cameroon,3.87,11.52,Africa/Douala,1675950917,09/02/2023 14:55,6:28 am,6:27 pm,9:22 pm,9:01 am,Waning Gibbous,91,1,0
+37,Ottawa,Ontario,Canada,45.42,-75.7,America/Toronto,1675950918,09/02/2023 8:55,7:14 am,5:21 pm,9:27 pm,9:05 am,Waning Gibbous,91,0,0
+38,Palha Verde,Sal,Cape Verde,16.67,-22.93,Atlantic/Cape_Verde,1675950919,09/02/2023 12:55,7:00 am,6:31 pm,9:44 pm,9:25 am,Waning Gibbous,91,1,0
+39,George Town,,Cayman Islands,19.3,-81.38,America/Cayman,1675950919,09/02/2023 8:55,6:57 am,6:22 pm,9:46 pm,9:25 am,Waning Gibbous,91,0,0
+40,Bangui,Bangui,Central African Republic,4.37,18.58,Africa/Bangui,1675950920,09/02/2023 14:55,6:01 am,5:59 pm,8:52 pm,8:32 am,Waning Gibbous,91,1,0
+41,N'djamena,Chari-Baguirmi,Chad,12.11,15.05,Africa/Douala,1675950921,09/02/2023 14:55,6:23 am,6:05 pm,9:07 pm,8:48 am,Waning Gibbous,91,1,0
+42,Santiago,Region Metropolitana,Chile,-33.45,-70.67,America/Santiago,1675950922,09/02/2023 10:55,7:13 am,8:40 pm,10:56 pm,10:33 am,Waning Gibbous,91,0,0
+43,Beijing,Beijing,China,39.93,116.39,Asia/Shanghai,1675950922,09/02/2023 21:55,7:15 am,5:43 pm,9:04 pm,9:05 am,Waning Gibbous,91,1,1
+44,Drumsite,,Christmas Island,-10.43,105.68,Indian/Christmas,1675950923,09/02/2023 20:55,5:57 am,6:26 pm,8:55 pm,8:29 am,Waning Gibbous,91,1,1
+45,Bogota,Cundinamarca,Colombia,4.6,-74.08,America/Bogota,1675950924,09/02/2023 8:55,6:12 am,6:09 pm,9:14 pm,8:53 am,Waning Gibbous,91,0,0
+46,Moroni,Grande Comore,Comoros,-11.7,43.24,Indian/Comoro,1675950924,09/02/2023 16:55,6:05 am,6:37 pm,9:12 pm,8:47 am,Waning Gibbous,91,1,0
+47,Brazzaville,Brazzaville,Congo,-4.26,15.28,Africa/Brazzaville,1675950925,09/02/2023 14:55,6:05 am,6:21 pm,9:06 pm,8:44 am,Waning Gibbous,91,1,0
+48,Brazzaville,Brazzaville,Congo,-4.26,15.28,Africa/Brazzaville,1675950925,09/02/2023 14:55,6:05 am,6:21 pm,9:06 pm,8:44 am,Waning Gibbous,91,1,0
+49,Avarua,,Cook Island,-21.21,-159.78,Pacific/Rarotonga,1675950925,09/02/2023 3:55,6:26 am,7:20 pm,10:02 pm,9:45 am,Waning Gibbous,91,0,1
+50,San Jose,San Jose,Costa Rica,9.93,-84.08,America/Costa_Rica,1675950926,09/02/2023 7:55,5:58 am,5:44 pm,8:56 pm,8:34 am,Waning Gibbous,91,0,0
+51,Zagreb,Grad Zagreb,Croatia,45.8,16,Europe/Zagreb,1675950927,09/02/2023 14:55,7:08 am,5:13 pm,9:03 pm,8:54 am,Waning Gibbous,91,1,0
+52,Havana,Ciudad de la Habana,Cuba,23.13,-82.36,America/Havana,1675950927,09/02/2023 8:55,7:06 am,6:22 pm,9:51 pm,9:29 am,Waning Gibbous,91,0,0
+53,Curaçao,Falcon,Venezuela,10.7,-71.08,America/Caracas,1675950928,09/02/2023 9:55,7:06 am,6:51 pm,10:02 pm,9:41 am,Waning Gibbous,91,0,0
+54,Nicosia,Nicosia,Cyprus,35.17,33.37,Asia/Famagusta,1675950928,09/02/2023 15:55,6:39 am,5:23 pm,8:51 pm,8:40 am,Waning Gibbous,91,1,0
+55,Prague,Hlavni mesto Praha,Czech Republic,50.08,14.47,Europe/Prague,1675950929,09/02/2023 14:55,7:24 am,5:09 pm,9:10 pm,9:02 am,Waning Gibbous,91,1,0
+56,Copenhagen,Hovedstaden,Denmark,55.67,12.58,Europe/Copenhagen,1675950929,09/02/2023 14:55,7:48 am,5:01 pm,9:18 pm,9:13 am,Waning Gibbous,91,1,0
+57,Djibouti,Ali Sabieh,Djibouti,11.6,43.15,Africa/Djibouti,1675950930,09/02/2023 16:55,6:30 am,6:13 pm,9:11 pm,8:53 am,Waning Gibbous,91,1,0
+58,Roseau,Saint George,Dominica,15.3,-61.4,America/Dominica,1675950930,09/02/2023 9:55,6:32 am,6:07 pm,9:23 pm,9:02 am,Waning Gibbous,91,0,0
+59,Santo Domingo,Distrito Nacional,Dominican Republic,18.47,-69.9,America/Santo_Domingo,1675950932,09/02/2023 9:55,7:10 am,6:37 pm,9:58 pm,9:38 am,Waning Gibbous,91,0,0
+60,Quito,Pichincha,Ecuador,-0.22,-78.5,America/Guayaquil,1675950933,09/02/2023 8:55,6:24 am,6:32 pm,9:32 pm,9:11 am,Waning Gibbous,91,0,0
+61,Cairo,Al Qahirah,Egypt,30.05,31.25,Africa/Cairo,1675950933,09/02/2023 15:55,6:40 am,5:39 pm,9:00 pm,8:47 am,Waning Gibbous,91,1,0
+62,San Salvador,San Salvador,El Salvador,13.71,-89.2,America/El_Salvador,1675950934,09/02/2023 7:55,6:22 am,6:00 pm,9:18 pm,8:56 am,Waning Gibbous,91,0,1
+63,Malabo,Bioko Norte,Equatorial Guinea,3.75,8.78,Africa/Malabo,1675950934,09/02/2023 14:55,6:39 am,6:38 pm,9:33 pm,9:12 am,Waning Gibbous,91,1,0
+64,Asmara,,Eritrea,15.33,38.93,Africa/Asmara,1675950935,09/02/2023 16:55,6:51 am,6:25 pm,9:29 pm,9:11 am,Waning Gibbous,91,1,0
+65,Tallinn,Harjumaa,Estonia,59.43,24.73,Europe/Tallinn,1675950935,09/02/2023 15:55,8:13 am,4:58 pm,9:26 pm,9:27 am,Waning Gibbous,91,1,0
+66,Addis Abeba,,Ethiopia,9.03,38.7,Africa/Addis_Ababa,1675950936,09/02/2023 16:55,6:45 am,6:33 pm,9:30 pm,9:11 am,Waning Gibbous,91,1,0
+67,Stanley,,Falkland Islands,-51.7,-57.85,Atlantic/Stanley,1675950937,09/02/2023 10:55,5:42 am,8:28 pm,10:02 pm,9:36 am,Waning Gibbous,91,0,0
+68,Torshavn,,Faroe Islands,62.02,-6.77,Atlantic/Faroe,1675950937,09/02/2023 13:55,8:31 am,4:52 pm,9:40 pm,9:35 am,Waning Gibbous,91,1,0
+69,Ahau,,Fiji Islands,-12.5,177.05,Pacific/Fiji,1675950938,10/02/2023 1:55,6:09 am,6:43 pm,9:03 pm,8:34 am,Waning Gibbous,91,0,1
+70,Helsinki,Southern Finland,Finland,60.18,24.93,Europe/Helsinki,1675950938,09/02/2023 15:55,8:16 am,4:54 pm,9:25 pm,9:27 am,Waning Gibbous,91,1,0
+71,Paris,Ile-de-France,France,48.87,2.33,Europe/Paris,1675950939,09/02/2023 14:55,8:09 am,6:01 pm,10:00 pm,9:51 am,Waning Gibbous,91,1,0
+72,Cayenne,,French Guiana,4.93,-52.33,America/Cayenne,1675950940,09/02/2023 10:55,6:45 am,6:42 pm,9:45 pm,9:24 am,Waning Gibbous,91,0,0
+73,Papeete,,French Polynesia Islands,-17.53,-149.57,Pacific/Tahiti,1675950941,09/02/2023 3:55,5:50 am,6:35 pm,9:21 pm,9:02 am,Waning Gibbous,91,0,1
+74,Amsterdam Island,,French Southern and Antarctic Lands,-37.83,77.55,Indian/Kerguelen,1675950951,09/02/2023 18:55,5:12 am,6:55 pm,8:54 pm,8:15 am,Waning Gibbous,91,1,0
+75,Libreville,Estuaire,Gabon,0.38,9.45,Africa/Libreville,1675950952,09/02/2023 14:55,6:33 am,6:39 pm,9:30 pm,9:09 am,Waning Gibbous,91,1,0
+76,Banjul,Banjul,Gambia,13.45,-16.58,Africa/Banjul,1675950953,09/02/2023 13:55,7:32 am,7:10 pm,10:17 pm,9:58 am,Waning Gibbous,91,1,0
+77,Tbilisi,Dushet'is Raioni,Georgia,41.73,44.79,Asia/Tbilisi,1675950954,09/02/2023 17:55,8:05 am,6:26 pm,10:03 pm,9:56 am,Waning Gibbous,91,1,0
+78,Berlin,Berlin,Germany,52.52,13.4,Europe/Berlin,1675950954,09/02/2023 14:55,7:35 am,5:07 pm,9:14 pm,9:08 am,Waning Gibbous,91,1,0
+79,Accra,Greater Accra,Ghana,5.55,-0.22,Africa/Accra,1675950955,09/02/2023 13:55,6:17 am,6:13 pm,9:10 pm,8:49 am,Waning Gibbous,91,1,0
+80,Gibraltar,,Gibraltar,36.13,-5.35,Europe/Gibraltar,1675950955,09/02/2023 14:55,8:15 am,6:56 pm,10:32 pm,10:17 am,Waning Gibbous,91,1,0
+81,Athens,Attica,Greece,37.98,23.72,Europe/Athens,1675950956,09/02/2023 15:55,7:23 am,5:57 pm,9:31 pm,9:20 am,Waning Gibbous,91,1,0
+82,Nuuk,Vestgronland,Greenland,64.18,-51.75,America/Nuuk,1675950957,09/02/2023 10:55,8:43 am,4:40 pm,9:52 pm,9:36 am,Waning Gibbous,91,1,0
+83,Saint George's,Saint George,Grenada,12.05,-61.75,America/Grenada,1675950957,09/02/2023 9:55,6:30 am,6:12 pm,9:24 pm,9:03 am,Waning Gibbous,91,0,0
+84,Lamentin,,Guadeloupe,16.27,-61.62,America/Guadeloupe,1675950959,09/02/2023 9:55,6:34 am,6:07 pm,9:24 pm,9:03 am,Waning Gibbous,91,0,0
+85,Guamuchil,Sinaloa,Mexico,25.46,-108.08,America/Mazatlan,1675950959,09/02/2023 6:55,6:51 am,6:02 pm,9:38 pm,9:14 am,Waning Gibbous,91,0,1
+86,Guatemala City,Guatemala,Guatemala,14.62,-90.53,America/Guatemala,1675950960,09/02/2023 7:56,6:28 am,6:04 pm,9:23 pm,9:01 am,Waning Gibbous,91,0,1
+87,Guernsey,,United Kingdom,49.45,-2.55,Europe/Guernsey,1675950961,09/02/2023 13:56,7:31 am,5:19 pm,9:21 pm,9:11 am,Waning Gibbous,91,1,0
+88,Conakry,Conakry,Guinea,9.51,-13.71,Africa/Conakry,1675950961,09/02/2023 13:56,7:16 am,7:03 pm,10:06 pm,9:46 am,Waning Gibbous,91,1,0
+89,Bissau,Bissau,Guinea-Bissau,11.85,-15.58,Africa/Bissau,1675950967,09/02/2023 13:56,7:26 am,7:08 pm,10:13 pm,9:54 am,Waning Gibbous,91,1,0
+90,Georgetown,Demerara-Mahaica,Guyana,6.8,-58.17,America/Guyana,1675950968,09/02/2023 9:56,6:10 am,6:03 pm,9:09 pm,8:48 am,Waning Gibbous,91,0,0
+91,Port-Au-Prince,Ouest,Haiti,18.54,-72.34,America/Port-au-Prince,1675950973,09/02/2023 8:56,6:20 am,5:47 pm,9:09 pm,8:47 am,Waning Gibbous,91,0,0
+92,Carcass Island Settlement,,Falkland Islands,-51.28,-60.55,Atlantic/Stanley,1675950974,09/02/2023 10:56,5:54 am,8:37 pm,10:13 pm,9:47 am,Waning Gibbous,91,0,0
+93,Vatican City,,Vatican City,41.9,12.45,Europe/Rome,1675950976,09/02/2023 14:56,7:14 am,5:35 pm,9:18 pm,9:07 am,Waning Gibbous,91,1,0
+94,Tegucigalpa,Francisco Morazan,Honduras,14.1,-87.22,America/Tegucigalpa,1675950977,09/02/2023 7:56,6:14 am,5:52 pm,9:10 pm,8:48 am,Waning Gibbous,91,0,0
+95,Hong Kong,,Hong Kong,22.28,114.15,Asia/Hong_Kong,1675950979,09/02/2023 21:56,6:59 am,6:16 pm,9:17 pm,9:06 am,Waning Gibbous,91,1,1
+96,Budapest,Budapest,Hungary,47.5,19.08,Europe/Budapest,1675950980,09/02/2023 14:56,6:59 am,4:57 pm,8:50 pm,8:42 am,Waning Gibbous,91,1,0
+97,Reykjavik,Gullbringusysla,Iceland,64.15,-21.95,Atlantic/Reykjavik,1675950999,09/02/2023 13:56,9:44 am,5:42 pm,10:44 pm,10:37 am,Waning Gibbous,91,1,0
+98,New Delhi,Delhi,India,28.6,77.2,Asia/Kolkata,1675951000,09/02/2023 19:26,7:05 am,6:06 pm,9:19 pm,9:09 am,Waning Gibbous,91,1,0
+99,Jakarta,Jakarta Raya,Indonesia,-6.21,106.85,Asia/Jakarta,1675951000,09/02/2023 20:56,5:57 am,6:17 pm,8:50 pm,8:26 am,Waning Gibbous,91,1,1
+100,Islamic City Of Marawi,Marawi,Philippines,8,124.28,Asia/Manila,1675951001,09/02/2023 21:56,6:02 am,5:52 pm,8:37 pm,8:19 am,Waning Gibbous,91,1,1
+101,Baghdad,Baghdad,Iraq,33.34,44.39,Asia/Baghdad,1675951001,09/02/2023 16:56,6:52 am,5:42 pm,9:05 pm,8:54 am,Waning Gibbous,91,1,0
+102,Dublin,Dublin,Ireland,53.33,-6.25,Europe/Dublin,1675951002,09/02/2023 13:56,7:56 am,5:24 pm,9:37 pm,9:28 am,Waning Gibbous,91,1,0
+103,Douglas,,Isle of Man,54.15,-4.48,Europe/Isle_of_Man,1675951002,09/02/2023 13:56,7:51 am,5:14 pm,9:29 pm,9:21 am,Waning Gibbous,91,1,0
+104,Israel,Chiapas,Mexico,16.51,-91.16,America/Mexico_City,1675951003,09/02/2023 7:56,6:33 am,6:05 pm,9:26 pm,9:04 am,Waning Gibbous,91,0,1
+105,Rome,Lazio,Italy,41.9,12.48,Europe/Rome,1675951004,09/02/2023 14:56,7:14 am,5:35 pm,9:18 pm,9:07 am,Waning Gibbous,91,1,0
+106,Kingston,Saint Andrew,Jamaica,18,-76.8,America/Jamaica,1675951004,09/02/2023 8:56,6:37 am,6:06 pm,9:27 pm,9:05 am,Waning Gibbous,91,0,0
+107,Tokyo,Tokyo,Japan,35.69,139.69,Asia/Tokyo,1675951005,09/02/2023 22:56,6:35 am,5:16 pm,8:28 pm,8:27 am,Waning Gibbous,91,0,1
+108,Saint Helier,,Jersey,49.18,-2.1,Europe/Jersey,1675951005,09/02/2023 13:56,7:28 am,5:18 pm,9:19 pm,9:09 am,Waning Gibbous,91,1,0
+109,Amman,Amman Governorate,Jordan,31.95,35.93,Asia/Amman,1675951006,09/02/2023 16:56,7:24 am,6:17 pm,9:40 pm,9:28 am,Waning Gibbous,91,1,0
+110,Astana,Astana,Kazakhstan,51.18,71.43,Asia/Almaty,1675951006,09/02/2023 19:56,8:39 am,6:18 pm,10:10 pm,10:13 am,Waning Gibbous,91,1,0
+111,Nairobi,Nairobi Area,Kenya,-1.28,36.82,Africa/Nairobi,1675951007,09/02/2023 16:56,6:42 am,6:52 pm,9:38 pm,9:16 am,Waning Gibbous,91,1,0
+112,Tarawa,,Kiribati,-0.88,169.53,Pacific/Tarawa,1675951007,10/02/2023 1:56,6:52 am,7:00 pm,9:32 pm,9:10 am,Waning Gibbous,91,0,1
+113,Riga,Riga,Latvia,56.95,24.1,Europe/Riga,1675951008,09/02/2023 15:56,8:06 am,5:10 pm,9:29 pm,9:28 am,Waning Gibbous,91,1,0
+114,Beirut,Beyrouth,Lebanon,33.87,35.51,Asia/Beirut,1675951008,09/02/2023 15:56,6:28 am,5:16 pm,8:42 pm,8:30 am,Waning Gibbous,91,1,0
+115,Maseru,Maseru,Lesotho,-29.32,27.48,Africa/Johannesburg,1675951009,09/02/2023 15:56,5:46 am,7:02 pm,9:17 pm,8:47 am,Waning Gibbous,91,1,0
+116,Monrovia,Montserrado,Liberia,6.31,-10.8,Africa/Monrovia,1675951009,09/02/2023 13:56,7:01 am,6:54 pm,9:54 pm,9:33 am,Waning Gibbous,91,1,0
+117,Tripoli,Tarabulus,Libya,32.89,13.18,Africa/Tripoli,1675951010,09/02/2023 15:56,7:57 am,6:47 pm,10:15 pm,10:01 am,Waning Gibbous,91,1,0
+118,Balzers,Balzers,Liechtenstein,47.07,9.5,Europe/Vaduz,1675951010,09/02/2023 14:56,7:37 am,5:37 pm,9:30 pm,9:21 am,Waning Gibbous,91,1,0
+119,Vilnius,Vilniaus Apskritis,Lithuania,54.68,25.32,Europe/Vilnius,1675951011,09/02/2023 15:56,7:54 am,5:13 pm,9:24 pm,9:21 am,Waning Gibbous,91,1,0
+120,Luxembourg,Luxembourg,Luxembourg,49.61,6.13,Europe/Luxembourg,1675951012,09/02/2023 14:56,7:56 am,5:44 pm,9:45 pm,9:36 am,Waning Gibbous,91,1,0
+121,Macao,Anhui,China,31.31,117.1,Asia/Shanghai,1675951012,09/02/2023 21:56,6:59 am,5:53 pm,9:03 pm,8:57 am,Waning Gibbous,91,1,1
+122,Macedonia,Iowa,USA United States of America,41.19,-95.43,America/Chicago,1675951013,09/02/2023 7:56,7:24 am,5:48 pm,9:48 pm,9:24 am,Waning Gibbous,91,0,0
+123,Antananarivo,Antananarivo,Madagascar,-18.92,47.52,Indian/Antananarivo,1675951013,09/02/2023 16:56,5:40 am,6:28 pm,8:54 pm,8:27 am,Waning Gibbous,91,1,0
+124,Lilongwe,Lilongwe,Malawi,-13.98,33.78,Africa/Blantyre,1675951014,09/02/2023 15:56,5:41 am,6:17 pm,8:50 pm,8:25 am,Waning Gibbous,91,1,0
+125,Kuala Lumpur,Kuala Lumpur,Malaysia,3.17,101.7,Asia/Kuala_Lumpur,1675951014,09/02/2023 21:56,7:28 am,7:28 pm,10:10 pm,9:50 am,Waning Gibbous,91,1,1
+126,Male,Maale,Maldives,4.17,73.5,Indian/Maldives,1675951015,09/02/2023 18:56,6:21 am,6:19 pm,9:06 pm,8:46 am,Waning Gibbous,91,1,0
+127,Bamako,Bamako,Mali,12.65,-8,Africa/Bamako,1675951015,09/02/2023 13:56,6:56 am,6:36 pm,9:42 pm,9:23 am,Waning Gibbous,91,1,0
+128,Valletta,,Malta,35.9,14.51,Europe/Malta,1675951016,09/02/2023 14:56,6:56 am,5:37 pm,9:09 pm,8:57 am,Waning Gibbous,91,1,0
+129,Majuro,,Marshall Islands,7.1,171.38,Pacific/Majuro,1675951016,10/02/2023 1:56,6:53 am,6:44 pm,9:23 pm,9:06 am,Waning Gibbous,91,0,1
+130,Fort-De-France,,Martinique,14.6,-61.08,America/Martinique,1675951017,09/02/2023 9:56,6:30 am,6:07 pm,9:22 pm,9:01 am,Waning Gibbous,91,0,0
+131,Nouakchott,Trarza,Mauritania,18.09,-15.98,Africa/Nouakchott,1675951017,09/02/2023 13:56,7:34 am,7:02 pm,10:15 pm,9:57 am,Waning Gibbous,91,1,0
+132,Port Louis,Port Louis,Mauritius,-20.16,57.5,Indian/Mauritius,1675951018,09/02/2023 17:56,5:58 am,6:50 pm,9:14 pm,8:45 am,Waning Gibbous,91,1,0
+133,Mamoudzou,,Mayotte,-12.78,45.23,Indian/Mayotte,1675951018,09/02/2023 16:56,5:56 am,6:30 pm,9:04 pm,8:38 am,Waning Gibbous,91,1,0
+134,Mexico City,The Federal District,Mexico,19.43,-99.13,America/Mexico_City,1675951019,09/02/2023 7:56,7:08 am,6:33 pm,9:59 pm,9:37 am,Waning Gibbous,91,0,1
+135,Aderew,Federated States of Micronesia,United States of America,6.94,158.28,Pacific/Pohnpei,1675951019,10/02/2023 0:56,6:45 am,6:37 pm,9:17 pm,8:59 am,Waning Gibbous,91,0,1
+136,Grinautsy-Moldova,Gagauzia,Moldova,48.28,27.45,Europe/Chisinau,1675951020,09/02/2023 15:57,7:28 am,5:22 pm,9:15 pm,9:09 am,Waning Gibbous,91,1,0
+137,Monaco-Ville,,Monaco,43.73,7.42,Europe/Monaco,1675951021,09/02/2023 14:57,7:38 am,5:52 pm,9:39 pm,9:28 am,Waning Gibbous,91,1,0
+138,Ulan Bator,Ulaanbaatar,Mongolia,47.92,106.92,Asia/Ulaanbaatar,1675951021,09/02/2023 21:57,8:09 am,6:04 pm,9:42 pm,9:48 am,Waning Gibbous,91,1,0
+139,Montenegro,Rio Grande do Sul,Brazil,-29.7,-51.47,America/Sao_Paulo,1675951022,09/02/2023 10:57,6:02 am,7:18 pm,9:39 pm,9:15 am,Waning Gibbous,91,0,0
+140,Plymouth,Saint Anthony,Montserrat,16.7,-62.22,America/Montserrat,1675951022,09/02/2023 9:57,6:37 am,6:09 pm,9:27 pm,9:06 am,Waning Gibbous,91,0,0
+141,Rabat,,Morocco,34.03,-6.84,Africa/Casablanca,1675951023,09/02/2023 14:57,8:18 am,7:05 pm,10:38 pm,10:23 am,Waning Gibbous,91,1,0
+142,Maputo,Maputo,Mozambique,-25.97,32.59,Africa/Maputo,1675951023,09/02/2023 15:57,5:31 am,6:37 pm,8:56 pm,8:27 am,Waning Gibbous,91,1,0
+143,Mandalay,Mandalay,Myanmar,22,96.08,Asia/Yangon,1675951024,09/02/2023 20:27,6:40 am,5:59 pm,9:02 pm,8:49 am,Waning Gibbous,91,1,0
+144,Windhoek,Windhoek,Namibia,-22.57,17.08,Africa/Windhoek,1675951025,09/02/2023 15:57,6:37 am,7:35 pm,9:59 pm,9:32 am,Waning Gibbous,91,1,0
+145,Aneber,,Nauru Island,-0.52,166.95,Pacific/Nauru,1675951025,10/02/2023 1:57,7:02 am,7:11 pm,9:43 pm,9:21 am,Waning Gibbous,91,0,1
+146,Kathmandu,,Nepal,27.72,85.32,Asia/Kathmandu,1675951026,09/02/2023 19:42,6:46 am,5:50 pm,9:00 pm,8:50 am,Waning Gibbous,91,1,0
+147,Amsterdam,North Holland,Netherlands,52.37,4.89,Europe/Amsterdam,1675951026,09/02/2023 14:57,8:08 am,5:42 pm,9:50 pm,9:42 am,Waning Gibbous,91,1,0
+148,Noumea,,New Caledonia,-22.27,166.45,Pacific/Noumea,1675951027,10/02/2023 0:57,5:40 am,6:37 pm,8:49 pm,8:14 am,Waning Gibbous,91,0,1
+149,Wellington,,New Zealand,-41.3,174.78,Pacific/Auckland,1675951027,10/02/2023 2:57,6:36 am,8:33 pm,10:20 pm,9:28 am,Waning Gibbous,91,0,1
+150,Managua,Managua,Nicaragua,12.15,-86.27,America/Managua,1675951028,09/02/2023 7:57,6:09 am,5:50 pm,9:05 pm,8:43 am,Waning Gibbous,91,0,0
+151,Niamey,Niamey,Niger,13.67,1.78,Africa/Niamey,1675951028,09/02/2023 14:57,7:18 am,6:56 pm,10:02 pm,9:43 am,Waning Gibbous,91,1,0
+152,Abuja,Federal Capital Territory,Nigeria,9.18,7.18,Africa/Lagos,1675951029,09/02/2023 14:57,6:52 am,6:39 pm,9:40 pm,9:20 am,Waning Gibbous,91,1,0
+153,Alofi,,Niue,-19.02,-169.92,Pacific/Niue,1675951029,09/02/2023 2:57,6:09 am,6:58 pm,9:44 pm,9:27 am,Waning Gibbous,91,0,1
+154,Kingston,,Norfolk Island,-29.05,167.95,Pacific/Norfolk,1675951030,10/02/2023 1:57,6:24 am,7:40 pm,9:44 pm,9:04 am,Waning Gibbous,91,0,1
+155,Kuala Lumpur,Kuala Lumpur,Malaysia,3.17,101.7,Asia/Kuala_Lumpur,1675951031,09/02/2023 21:57,7:28 am,7:28 pm,10:10 pm,9:50 am,Waning Gibbous,91,1,1
+156,Oslo,Oslo,Norway,59.92,10.75,Europe/Oslo,1675951031,09/02/2023 14:57,8:11 am,4:52 pm,9:25 pm,9:23 am,Waning Gibbous,91,1,0
+157,Muscat,Masqat,Oman,23.61,58.59,Asia/Muscat,1675951032,09/02/2023 17:57,6:42 am,5:57 pm,9:07 pm,8:53 am,Waning Gibbous,91,1,0
+158,Islamabad,Islamabad,Pakistan,33.7,73.17,Asia/Karachi,1675951033,09/02/2023 18:57,6:58 am,5:46 pm,9:05 pm,8:57 am,Waning Gibbous,91,1,0
+159,Palau,Coahuila,Mexico,27.89,-101.42,America/Monterrey,1675951033,09/02/2023 7:57,7:28 am,6:32 pm,10:10 pm,9:47 am,Waning Gibbous,91,0,1
+160,Abuja,Federal Capital Territory,Nigeria,9.18,7.18,Africa/Lagos,1675951034,09/02/2023 14:57,6:52 am,6:39 pm,9:40 pm,9:20 am,Waning Gibbous,91,1,0
+161,Panama City,Panama,Panama,8.97,-79.53,America/Panama,1675951034,09/02/2023 8:57,6:38 am,6:26 pm,9:37 pm,9:16 am,Waning Gibbous,91,0,0
+162,Port Moresby,National Capital,Papua New Guinea,-9.46,147.19,Pacific/Port_Moresby,1675951036,09/02/2023 23:57,6:12 am,6:39 pm,9:05 pm,8:38 am,Waning Gibbous,91,0,1
+163,Asuncion,Central,Paraguay,-25.27,-57.67,America/Asuncion,1675951036,09/02/2023 10:57,6:32 am,7:37 pm,10:04 pm,9:41 am,Waning Gibbous,91,0,0
+164,Lima,Lima,Peru,-12.05,-77.05,America/Lima,1675951037,09/02/2023 8:57,6:06 am,6:38 pm,9:25 pm,9:03 am,Waning Gibbous,91,0,0
+165,Manila,Manila,Philippines,14.6,120.98,Asia/Manila,1675951037,09/02/2023 21:57,6:22 am,5:58 pm,8:49 pm,8:35 am,Waning Gibbous,91,1,1
+166,Adamstown,,Pitcairn Island,-25.07,-130.08,Pacific/Pitcairn,1675951038,09/02/2023 5:57,6:22 am,7:26 pm,10:00 pm,9:42 am,Waning Gibbous,91,0,1
+167,Warsaw,,Poland,52.25,21,Europe/Warsaw,1675951039,09/02/2023 14:57,7:04 am,4:37 pm,8:42 pm,8:37 am,Waning Gibbous,91,1,0
+168,Lisbon,Lisboa,Portugal,38.72,-9.13,Europe/Lisbon,1675951040,09/02/2023 13:57,7:35 am,6:07 pm,9:48 pm,9:34 am,Waning Gibbous,91,1,0
+169,Puerto Rico,Misiones,Argentina,-26.8,-55.03,America/Argentina/Cordoba,1675951040,09/02/2023 10:57,6:20 am,7:29 pm,9:53 pm,9:30 am,Waning Gibbous,91,0,0
+170,Doha,Ad Dawhah,Qatar,25.29,51.53,Asia/Qatar,1675951041,09/02/2023 16:57,6:13 am,5:24 pm,8:36 pm,8:22 am,Waning Gibbous,91,1,0
+171,Réunions,Chihuahua,Mexique,26.88,-106.95,America/Chihuahua,1675951041,09/02/2023 7:57,7:49 am,6:56 pm,10:33 pm,10:09 am,Waning Gibbous,91,0,1
+172,Bucharest,Bucuresti,Romania,44.43,26.1,Europe/Bucharest,1675951042,09/02/2023 15:57,7:25 am,5:36 pm,9:21 pm,9:13 am,Waning Gibbous,91,1,0
+173,Russian,Sucre,Venezuela,10.5,-63.17,America/Caracas,1675951042,09/02/2023 9:57,6:34 am,6:19 pm,9:30 pm,9:09 am,Waning Gibbous,91,0,0
+174,Kigali,Kigali,Rwanda,-1.95,30.06,Africa/Kigali,1675951043,09/02/2023 15:57,6:08 am,6:19 pm,9:05 pm,8:43 am,Waning Gibbous,91,1,0
+175,Saint George's,Saint George,Grenada,12.05,-61.75,America/Grenada,1675951043,09/02/2023 9:57,6:30 am,6:12 pm,9:24 pm,9:03 am,Waning Gibbous,91,0,0
+176,Tristan Settlement,,Saint Helena,-37.05,-12.3,Atlantic/St_Helena,1675951044,09/02/2023 13:57,6:13 am,7:53 pm,9:59 pm,9:30 am,Waning Gibbous,91,1,0
+177,Basseterre,Saint George Basseterre,Saint Kitts and Nevis,17.3,-62.72,America/St_Kitts,1675951044,09/02/2023 9:57,6:40 am,6:10 pm,9:29 pm,9:08 am,Waning Gibbous,91,0,0
+178,Castries,Castries,Saint Lucia,14,-61,America/St_Lucia,1675951045,09/02/2023 9:57,6:29 am,6:07 pm,9:21 pm,9:00 am,Waning Gibbous,91,0,0
+179,Saint-Martin-Boulogne,Nord-Pas-de-Calais,France,50.72,1.63,Europe/Paris,1675951045,09/02/2023 14:57,8:17 am,5:59 pm,10:03 pm,9:54 am,Waning Gibbous,91,1,0
+180,Saint-Pierre,,Saint Pierre and Miquelon,46.77,-56.18,America/Miquelon,1675951046,09/02/2023 10:57,7:58 am,6:00 pm,10:05 pm,9:47 am,Waning Gibbous,91,1,0
+181,Kingstown,Saint George,Saint Vincent and the Grenadines,13.13,-61.22,America/St_Vincent,1675951047,09/02/2023 9:57,6:29 am,6:09 pm,9:22 pm,9:01 am,Waning Gibbous,91,0,0
+182,Apia,,Samoa,-13.83,-171.73,Pacific/Apia,1675951047,10/02/2023 2:57,6:22 am,7:00 pm,9:18 pm,8:47 am,Waning Gibbous,91,0,1
+183,San Marino,San Marino,San Marino,43.93,12.45,Europe/Rome,1675951048,09/02/2023 14:57,7:18 am,5:31 pm,9:18 pm,9:08 am,Waning Gibbous,91,1,0
+184,Sao Tome,Sao Tome,Sao Tome and Principe,0.33,6.73,Africa/Sao_Tome,1675951048,09/02/2023 13:57,5:44 am,5:51 pm,8:41 pm,8:20 am,Waning Gibbous,91,1,0
+185,Riyadh,Ar Riyad,Saudi Arabia,24.64,46.77,Asia/Riyadh,1675951049,09/02/2023 16:57,6:31 am,5:44 pm,8:55 pm,8:42 am,Waning Gibbous,91,1,0
+186,Dakar,Dakar,Senegal,14.67,-17.44,Africa/Dakar,1675951049,09/02/2023 13:57,7:36 am,7:12 pm,10:21 pm,10:02 am,Waning Gibbous,91,1,0
+187,Belgrade,Central Serbia,Serbia,44.8,20.47,Europe/Belgrade,1675951050,09/02/2023 14:57,6:48 am,4:57 pm,8:44 pm,8:35 am,Waning Gibbous,91,1,0
+188,Victoria,Beau Vallon,Seychelles Islands,-4.62,55.45,Indian/Mahe,1675951050,09/02/2023 17:57,6:24 am,6:40 pm,9:21 pm,8:58 am,Waning Gibbous,91,1,0
+189,Freetown,Western Area,Sierra Leone,8.49,-13.23,Africa/Freetown,1675951051,09/02/2023 13:57,7:13 am,7:02 pm,10:04 pm,9:44 am,Waning Gibbous,91,1,0
+190,Singapore,,Singapore,1.29,103.86,Asia/Singapore,1675951051,09/02/2023 21:57,7:17 am,7:21 pm,10:02 pm,9:41 am,Waning Gibbous,91,1,1
+191,Bratislava,Bratislava,Slovakia,48.15,17.12,Europe/Bratislava,1675951052,09/02/2023 14:57,7:09 am,5:03 pm,8:58 pm,8:51 am,Waning Gibbous,91,1,0
+192,Ljubljana,Bohinj,Slovenia,46.06,14.51,Europe/Ljubljana,1675951052,09/02/2023 14:57,7:15 am,5:19 pm,9:09 pm,9:00 am,Waning Gibbous,91,1,0
+193,Honiara,Makira,Solomon Islands,-9.43,159.95,Pacific/Guadalcanal,1675951053,10/02/2023 0:57,6:21 am,6:48 pm,9:13 pm,8:46 am,Waning Gibbous,91,0,1
+194,Mogadishu,Banaadir,Somalia,2.07,45.37,Africa/Mogadishu,1675951053,09/02/2023 16:57,6:11 am,6:14 pm,9:02 pm,8:41 am,Waning Gibbous,91,1,0
+195,Pretoria,Gauteng,South Africa,-25.75,28.19,Africa/Johannesburg,1675951054,09/02/2023 15:57,5:49 am,6:54 pm,9:14 pm,8:45 am,Waning Gibbous,91,1,0
+196,Grytviken,,South Georgia and South Sandwich Islands,-54.28,-36.51,Atlantic/South_Georgia,1675951054,09/02/2023 11:57,5:08 am,8:11 pm,9:36 pm,9:05 am,Waning Gibbous,91,1,0
+197,Madrid,Madrid,Spain,40.4,-3.68,Europe/Madrid,1675951055,09/02/2023 14:57,8:16 am,6:42 pm,10:25 pm,10:12 am,Waning Gibbous,91,1,0
+198,Colombo,Western,Sri Lanka,6.93,79.85,Asia/Colombo,1675951055,09/02/2023 19:27,6:28 am,6:21 pm,9:10 pm,8:51 am,Waning Gibbous,91,1,0
+199,Khartoum,Al Khartum,Sudan,15.59,32.53,Africa/Khartoum,1675951056,09/02/2023 15:57,6:17 am,5:51 pm,8:55 pm,8:37 am,Waning Gibbous,91,1,0
+200,Paramaribo,Paramaribo,Suriname,5.83,-55.17,America/Paramaribo,1675951056,09/02/2023 10:57,6:58 am,6:52 pm,9:56 pm,9:36 am,Waning Gibbous,91,0,0
+201,Sudan,,South Korea,36.4,126.75,Asia/Seoul,1675951057,09/02/2023 22:57,7:28 am,6:07 pm,9:22 pm,9:21 am,Waning Gibbous,91,1,1
+202,Mayen,Sonora,Mexico,29.85,-111.24,America/Hermosillo,1675951058,09/02/2023 6:57,7:10 am,6:09 pm,9:52 pm,9:28 am,Waning Gibbous,91,0,1
+203,Mbabane,Hhohho,Swaziland,-26.32,31.13,Africa/Mbabane,1675951059,09/02/2023 15:57,5:36 am,6:43 pm,9:02 pm,8:33 am,Waning Gibbous,91,1,0
+204,Stockholm,Stockholms Lan,Sweden,59.33,18.05,Europe/Stockholm,1675951059,09/02/2023 14:57,7:40 am,4:25 pm,8:54 pm,8:53 am,Waning Gibbous,91,1,0
+205,Bern,,Switzerland,46.92,7.47,Europe/Zurich,1675951060,09/02/2023 14:57,7:45 am,5:45 pm,9:39 pm,9:29 am,Waning Gibbous,91,1,0
+206,Arab,Alabama,USA United States of America,34.32,-86.5,America/Chicago,1675951061,09/02/2023 7:57,6:37 am,5:24 pm,9:10 pm,8:47 am,Waning Gibbous,91,0,0
+207,Taiwan,Jiangsu,China,32.33,118.76,Asia/Shanghai,1675951061,09/02/2023 21:57,6:54 am,5:45 pm,8:56 pm,8:51 am,Waning Gibbous,91,1,1
+208,Dushanbe,Khatlon,Tajikistan,38.56,68.77,Asia/Dushanbe,1675951062,09/02/2023 18:57,7:23 am,5:56 pm,9:23 pm,9:17 am,Waning Gibbous,91,1,0
+209,Republic,Pennsylvania,USA United States of America,39.97,-79.88,America/New_York,1675951063,09/02/2023 8:57,7:20 am,5:48 pm,9:43 pm,9:21 am,Waning Gibbous,91,0,0
+210,Bangkok,Krung Thep,Thailand,13.75,100.52,Asia/Bangkok,1675951063,09/02/2023 20:57,6:43 am,6:21 pm,9:14 pm,8:59 am,Waning Gibbous,91,1,1
+211,Leste,Nordrhein-Westfalen,Germany,51.75,8.6,Europe/Berlin,1675951064,09/02/2023 14:57,7:52 am,5:29 pm,9:34 pm,9:27 am,Waning Gibbous,91,1,0
+212,Lome,Maritime,Togo,6.13,1.22,Africa/Accra,1675951064,09/02/2023 13:57,6:12 am,6:06 pm,9:04 pm,8:44 am,Waning Gibbous,91,1,0
+213,Fakaofu Village,,Tokelau Islands,-9.38,-171.25,Pacific/Fakaofo,1675951065,10/02/2023 2:57,6:25 am,6:53 pm,9:15 pm,8:47 am,Waning Gibbous,91,0,1
+214,Nuku'alofa,Tongatapu,Tonga,-21.13,-175.2,Pacific/Tongatapu,1675951065,10/02/2023 2:57,6:27 am,7:22 pm,9:34 pm,8:58 am,Waning Gibbous,91,0,1
+215,Port Of Spain,Port-of-Spain,Trinidad and Tobago,10.65,-61.52,America/Port_of_Spain,1675951066,09/02/2023 9:57,6:28 am,6:12 pm,9:23 pm,9:02 am,Waning Gibbous,91,0,0
+216,Tunis,Gabes,Tunisia,36.8,10.18,Africa/Tunis,1675951066,09/02/2023 14:57,7:15 am,5:53 pm,9:27 pm,9:15 am,Waning Gibbous,91,1,0
+217,Ankara,Ankara,Turkey,39.93,32.86,Europe/Istanbul,1675951067,09/02/2023 16:57,7:49 am,6:17 pm,9:53 pm,9:44 am,Waning Gibbous,91,1,0
+218,Ashgabat,Ahal,Turkmenistan,37.95,58.38,Asia/Ashgabat,1675951068,09/02/2023 18:57,8:04 am,6:38 pm,10:06 pm,9:59 am,Waning Gibbous,91,1,0
+219,Cockburn Town,,Turks and Caicos Islands,21.47,-71.13,America/Grand_Turk,1675951068,09/02/2023 8:57,6:18 am,5:39 pm,9:04 pm,8:43 am,Waning Gibbous,91,0,0
+220,Funafuti,,Tuvalu,-8.52,179.22,Pacific/Funafuti,1675951069,10/02/2023 1:57,6:05 am,6:30 pm,8:54 pm,8:27 am,Waning Gibbous,91,0,1
+221,Kampala,Kampala,Uganda,0.32,32.57,Africa/Kampala,1675951069,09/02/2023 16:57,7:01 am,7:07 pm,9:55 pm,9:34 am,Waning Gibbous,91,1,0
+222,Kiev,Kyyivs'ka Oblast',Ukraine,50.43,30.52,Europe/Kiev,1675951070,09/02/2023 15:57,7:21 am,5:04 pm,9:02 pm,8:58 am,Waning Gibbous,91,1,0
+223,Abu Dhabi,Abu Dhabi,United Arab Emirates,24.47,54.37,Asia/Dubai,1675951070,09/02/2023 17:57,7:01 am,6:13 pm,9:24 pm,9:11 am,Waning Gibbous,91,1,0
+224,Kingdom City,Missouri,USA United States of America,38.96,-91.96,America/Chicago,1675951071,09/02/2023 7:57,7:06 am,5:39 pm,9:33 pm,9:10 am,Waning Gibbous,91,0,0
+225,Three States,Louisiana,United States of America,33.02,-94.04,America/Chicago,1675951071,09/02/2023 7:57,7:05 am,5:56 pm,9:41 pm,9:18 am,Waning Gibbous,91,0,0
+226,Minor,Sakha,Russia,60.47,137.88,Asia/Khandyga,1675951072,09/02/2023 22:57,7:47 am,4:20 pm,8:27 pm,8:55 am,Waning Gibbous,91,0,1
+227,Montevideo,Montevideo,Uruguay,-34.86,-56.17,America/Montevideo,1675951073,09/02/2023 10:57,6:12 am,7:45 pm,9:57 pm,9:33 am,Waning Gibbous,91,0,0
+228,Tashkent,Toshkent,Uzbekistan,41.32,69.25,Asia/Tashkent,1675951073,09/02/2023 18:57,7:26 am,5:49 pm,9:21 pm,9:17 am,Waning Gibbous,91,1,0
+229,Port Vila,Efate,Vanuatu,-17.73,168.32,Pacific/Efate,1675951074,10/02/2023 0:57,5:38 am,6:24 pm,8:40 pm,8:08 am,Waning Gibbous,91,0,1
+230,Republic,Pennsylvania,USA United States of America,39.97,-79.88,America/New_York,1675951074,09/02/2023 8:57,7:20 am,5:48 pm,9:43 pm,9:21 am,Waning Gibbous,91,0,0
+231,Phu Viet,,Vietnam,17.27,107.77,Asia/Ho_Chi_Minh,1675951075,09/02/2023 20:57,6:18 am,5:48 pm,8:44 pm,8:30 am,Waning Gibbous,91,1,1
+232,Leonards,,Virgin Islands,18.42,-64.63,America/Tortola,1675951076,09/02/2023 9:57,6:49 am,6:16 pm,9:37 pm,9:16 am,Waning Gibbous,91,0,0
+233,Leonards,,Virgin Islands,18.42,-64.63,America/Tortola,1675951076,09/02/2023 9:57,6:49 am,6:16 pm,9:37 pm,9:16 am,Waning Gibbous,91,0,0
+234,Mata'utu,,Wallis and Futuna Islands,-13.28,-176.13,Pacific/Wallis,1675951077,10/02/2023 1:57,5:41 am,6:16 pm,8:35 pm,8:06 am,Waning Gibbous,91,0,1
+235,Sanaa,San,Yemen,15.35,44.21,Asia/Aden,1675951077,09/02/2023 16:57,6:30 am,6:04 pm,9:07 pm,8:50 am,Waning Gibbous,91,1,0
+236,Lusaka,Lusaka,Zambia,-15.42,28.28,Africa/Lusaka,1675951078,09/02/2023 15:57,6:01 am,6:41 pm,9:13 pm,8:47 am,Waning Gibbous,91,1,0
+237,Harare,Mashonaland East,Zimbabwe,-17.82,31.04,Africa/Harare,1675951078,09/02/2023 15:57,5:47 am,6:33 pm,9:02 pm,8:35 am,Waning Gibbous,91,1,0
