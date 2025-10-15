@@ -1,9 +1,5 @@
-# ,name,region,country,lat,lon,tz_id,localtime_epoch,localtime,sunrise,sunset,moonrise,moonset,moon_phase,moon_illumination,is_moon_up,is_sun_up
-from datetime import datetime
-
 class WeatherSystem:
     def __init__(self, source_file):
-        # self.source_file = open("./countryAstronomy.csv","r")
         self.source_file = open(f"{source_file}", "r")
         self.data_list = self.source_file.readlines()
         self.source_file.close()
@@ -11,7 +7,7 @@ class WeatherSystem:
         # filter data_list
         self.data_list = self.data_filter(self.data_list)
 
-    # ultities
+    # ultility
     def data_filter(self, data):
         remove_duplicate = []
         duplicate_id = []
@@ -29,7 +25,7 @@ class WeatherSystem:
                 pass
         return remove_duplicate
     
-    # ultities
+    # ultility
     def time_conversion(self, time):
             separate_time = time.split(':')
             hours = separate_time[0]
@@ -42,7 +38,7 @@ class WeatherSystem:
             total_minutes = (int(hours) * 24) + int(minutes)
             return [f'{hours}:{minutes}', total_minutes]
 
-    # ultities
+    # ultility
     def format_date(self, date) -> str:
         date = date.split('/')
 
@@ -55,7 +51,7 @@ class WeatherSystem:
 
         return f"{months[date[0]]} {date[1]}, {date[2]}"
     
-    # utilities
+    # ultility
     def time_duration(self, time1, time2):
         set_time = time1.split(':')
         rise_time = time2.split(':')
@@ -70,37 +66,9 @@ class WeatherSystem:
          
         hrs_diff = duration // 60
         mins_diff = duration - (hrs_diff*60)
-        # hrs_diff = duration  // 24
-        # if len(str(hrs_diff).split('-')) == 2:
-        #     hrs_diff += 24
-        #     duration = int(str(duration).split('-')[1])
-        # mins_diff = (int(rise_time[1]) - int(set_time[1])) + 60
-        # if mins_diff > 60: 
-        #     mins_diff -= 60
-        # elif duration  % 24 == 0:
-        #     mins_diff = 0
         return [f'{hrs_diff} hrs & {mins_diff} mins', duration]
-    
-        # morning_time = time1.split(':')
-        # night_time = time2.split(':')
 
-        # day_mins = (int(morning_time[0])*24) + int(morning_time[1])
-        # night_mins = (int(night_time[0])*24) + int(night_time[1])
-
-        # duration = night_mins - day_mins
-        
-        # hrs_diff = duration  // 24
-        # if len(str(hrs_diff).split('-')) == 2:
-        #     hrs_diff += 24
-        #     duration = int(str(duration).split('-')[1])
-        # mins_diff = (int(night_time[1]) - int(morning_time[1])) + 60
-        # if mins_diff > 60: 
-        #     mins_diff -= 60
-        # elif duration  % 24 == 0:
-        #     mins_diff = 0
-
-        # return [f'{hrs_diff} hrs & {mins_diff} mins', duration]
-    
+    # ultility
     def ave_time(self, tz_place, state):
         duration_list = []
         ave_placeholder = 0
@@ -121,11 +89,6 @@ class WeatherSystem:
 
         
         ave_value = round(ave_placeholder / len(duration_list))
-        # mins_diff = (int(night_time[1]) - int(morning_time[1])) + 60
-        # if mins_diff > 60: 
-        #     mins_diff -= 60
-        # elif duration  % 24 == 0:
-        #     mins_diff = 0
         time_hrs = ave_value // 60
         time_mins = (ave_value % 60) + 60
         if time_mins >= 60:
@@ -134,26 +97,14 @@ class WeatherSystem:
             time_mins = 0
         return [ave_value, f'{time_hrs} hours & {time_mins} minutes']
 
+    # ultility
     def time_comparison(self, converted_time1, converted_time2):
         if converted_time1 > converted_time2:
             return 'Day is longer than Night'
         else:
             return 'Night is longer than Day'
 
-        # time_1 = converted_time1.split('&')
-        # time_2 = converted_time2.split('&')
-
-        # time_1_hrs = int(time_1[0].removesuffix(' hrs '))
-        # time_1_mins = int(time_1[1].removesuffix(' mins'))
-
-        # time_2_hrs = int(time_2[0].removesuffix(' hrs '))
-        # time_2_mins = int(time_2[1].removesuffix(' mins'))
-
-        # if ((time_1_hrs) * 24 + time_1_mins) > ((time_2_hrs) * 24 + time_2_mins):
-        #     return 'Day is longer than Night'
-        # else:
-        #     return 'Night is longer than Day'
-
+    # ultility
     def analyze_data(self, info) -> list:
         while True:
             if info:
@@ -189,11 +140,8 @@ Night Duration:
             places = []     
             for id in self.data_list:
                 data = id.split(',')
-                # this also delete in case
                 if name.lower() == "":
                     break
-
-                # then make this if
                 elif name.lower() == data[1].lower() or name.lower() == data[2].lower():
                     places.append(id)
                 else:
@@ -201,7 +149,6 @@ Night Duration:
             if places:
                 print(f"\nPlace Found: {places[0].split(',')[1]}")
                 return self.analyze_data(places)
-            # delete this in case
             elif name.lower() == "":
                 print(">>>> Invalid Input")
                 break
@@ -218,11 +165,8 @@ Night Duration:
             if country.lower() == data[3].lower():
                 info_list.append(id)
 
-        # selected_data = selected_data[1:len(selected_data)]
         if info_list:
             print(f"\nPlaces Found")
-            # for details in selected_data:
-            #     print(f'- {details.split(',')[2]}, {details.split(',')[1]}')
             return info_list
         else:
             print("\n>>>> Country Not Found")
@@ -447,19 +391,3 @@ def main():
 
 if __name__ == "__main__":
     main()
-
-# weather_astronomy = WeatherSystem("./countryAstronomy.csv")
-# print(weather_astronomy.time_conversion("9:20 PM")[0].split(':'))
-# weather_astronomy.data_filter(weather_astronomy.data_list)
-# weather_astronomy.search_by_timezone("Asia")
-# weather_astronomy.search_by_timezone()
-# weather_astronomy.time_comparison(weather_astronomy.time_duration("9:20", "21:30"), weather_astronomy.time_duration('21:35', '8:55'))
-# for idx, i in enumerate(weather_astronomy.data_list, 1):
-#     print(i.split(',')[3], end=', ')
-    # if idx % 6 == 0:
-    #     print()
-# weather_astronomy.moonrise_analytics()
-
-
-# ['Brazzaville', 'Kingston', 'Kuala Lumpur', 'Abuja', "Saint George's", 'Republic', 'Leonards']
-# kingston
