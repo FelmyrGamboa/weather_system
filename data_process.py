@@ -258,7 +258,7 @@ Night Duration:
 
             print(f'''
 ==================================================================
-Mean Daytime Duration Across Timezone Major Places
+Mean Daytime Duration Across Major Timezone Places
                   
 - Asia: 
 {int(ave_list[0]['asia'][0])//15 * '█'} {ave_list[0]['asia'][1]} 
@@ -322,7 +322,7 @@ Mean Daytime Duration Across Timezone Major Places
 
             print(f'''
 ==================================================================
-Mean Nighttime Duration Across Timezone Major Places
+Mean Nighttime Duration Across Major Timezone Places
                   
 - Asia: 
 {int(ave_list[0]['asia'][0])//15 * '█'} {ave_list[0]['asia'][1]} 
@@ -387,7 +387,6 @@ def main():
                 break
             case _:
                 print("\n>>> Invalid Input")
-
 
 if __name__ == "__main__":
     main()
