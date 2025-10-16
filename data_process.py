@@ -100,9 +100,11 @@ class WeatherSystem:
     # ultility
     def time_comparison(self, converted_time1, converted_time2):
         if converted_time1 > converted_time2:
-            return 'Day is longer than Night'
+            return 'Day Time is longer than Night Time'
+        elif converted_time1 == converted_time2:
+            return 'Day and Night Durations are Equal'
         else:
-            return 'Night is longer than Day'
+            return 'Night Time is longer than Day Time'
 
     # ultility
     def analyze_data(self, info) -> list:
@@ -195,7 +197,10 @@ Night Duration:
             for id_2 in self.data_list:
                 data_2 = id_2.split(',')
                 if timezone_query.lower() == data_2[6].lower().split('/')[0]:
-                    timezone_places.append(data_2[6].split('/')[1])
+                    if data_2[6].split('/')[1] not in timezone_places:
+                        timezone_places.append(data_2[6].split('/')[1])
+                    else: 
+                        pass
 
             # present query based timezone available
             if timezone_places:
