@@ -155,7 +155,7 @@ Night Duration:
                 print(">>>> Invalid Input")
                 break
             elif name.lower() == "n":
-                return "n"
+                return None
             else:
                 print("\n>>>>>> Place not found \n>>>>>> Back to Home")
                 break
@@ -366,7 +366,8 @@ def main():
     4.) Day Time Duration Analytics
     5.) Night Time Duration Analytics
     6.) Exit
-
+              
+**Note: Places were based on the Dataset 
 ===========================================
         ''')
         user_input = input("Please select an option: ").strip()
